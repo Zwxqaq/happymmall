@@ -24,4 +24,5 @@ public interface IUserService {
 
     ServerResponse<PageInfo> list(int pageNum,int pageSize);
 
+    ServerResponse checkeAdmin(User user);
 }

@@ -47,13 +47,13 @@ public class FTPUtil {
     public static boolean uploadFile(List<File> fileList) throws IOException {
         FTPUtil ftpUtil = new FTPUtil(ftpIp, 21, ftpUser, ftpPwd);
         logger.info("start to connect ftp server ...");
-        boolean res = ftpUtil.uploadFile("img", fileList);
+        boolean res = ftpUtil.uploadFile("photo", fileList);
         logger.info("finish the upload func,end the server...upload res:{}.", res);
         return res;
     }
 
     private boolean uploadFile(String remotePath, List<File> fileList) throws IOException {
-        boolean isSuccess = true;
+        boolean isSuccess = false;
         FileInputStream fis = null;
         if (connectFtp(this.ip, this.port, this.user, this.pwd)) {
             try {
@@ -66,9 +66,10 @@ public class FTPUtil {
                     fis = new FileInputStream(file);
                     ftpClient.storeFile(file.getName(), fis);
                 }
+                isSuccess = true;
+                logger.info("已经上传到文件服务器.....");
             } catch (IOException e) {
                 logger.error("upload file error..", e);
-                isSuccess = false;
                 e.printStackTrace();
             } finally {
                 fis.close();

@@ -146,6 +146,14 @@ public class UserServiceImpl implements IUserService {
         return ServerResponse.createBySuccess(pageInfo);
     }
 
+    @Override
+    public ServerResponse checkeAdmin(User user) {
+        if (user != null && user.getRole() == Const.Role.ROLE_ADMIN) {
+            return ServerResponse.createBySuccess();
+        }
+        return ServerResponse.createByErrorMsg("权限不足");
+    }
+
     //        username,password,email,phone,question,answer
 
     @Override
