@@ -9,6 +9,11 @@
     </properties>
     <root id="archive" name="happymmall.war">
       <element id="artifact" artifact-name="happymmall:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
     </root>
   </artifact>
 </component>

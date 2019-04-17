@@ -13,6 +13,7 @@ public class PropertyUtil {
     private static Properties prop;
     static {
         String fileName = "mmall.properties";
+        prop = new Properties();
         try {
             //todo through the classLoader to understand the problem of jvm
             prop.load(new InputStreamReader(PropertyUtil.class.getClassLoader().getResourceAsStream(fileName), "UTF-8"));
