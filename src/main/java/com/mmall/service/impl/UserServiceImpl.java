@@ -1,5 +1,7 @@
 package com.mmall.service.impl;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.mmall.common.Const;
 import com.mmall.common.ResponseCode;
 import com.mmall.common.ServerResponse;
@@ -12,6 +14,7 @@ import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.UUID;
 
 
@@ -134,28 +137,14 @@ public class UserServiceImpl implements IUserService {
         }
         return ServerResponse.createByErrorMsg("更新个人信息失败");
     }
-    //    ####9.登录状态更新个人信息 /user/update_information.do
-//
-//    request
-//
-//            email,phone,question,answer
-//
-//    response
-//
-//            success
-//
-//    {
-//        "status": 0,
-//            "msg": "更新个人信息成功"
-//    }
-//
-//    fail
-//
-//    {
-//        "status": 1,
-//            "msg": "用户未登录"
-//    }
 
+    @Override
+    public ServerResponse<PageInfo> list(int pageNum,int pageSize) {
+        PageHelper.startPage(pageNum, pageSize);
+        List<User> userList = userMapper.selectAllUser();
+        PageInfo pageInfo = new PageInfo(userList);
+        return ServerResponse.createBySuccess(pageInfo);
+    }
 
     //        username,password,email,phone,question,answer
 

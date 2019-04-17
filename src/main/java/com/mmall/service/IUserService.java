@@ -1,5 +1,6 @@
 package com.mmall.service;
 
+import com.github.pagehelper.PageInfo;
 import com.mmall.common.ServerResponse;
 import com.mmall.pojo.User;
 
@@ -20,4 +21,7 @@ public interface IUserService {
     ServerResponse resetPass(String passwordOld, String passwordNew, User user);
 
     ServerResponse<User> updateInfo(User user);
+
+    ServerResponse<PageInfo> list(int pageNum,int pageSize);
+
 }
