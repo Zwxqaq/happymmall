@@ -118,38 +118,19 @@ public class UserController {
         }
         return ServerResponse.createBySuccess(curUser);
     }
-//    ####10.获取当前登录用户的详细信息，并强制登录 /user/get_information.do
-//
-//    request
-//
-//            无参数
-//
-//    response
-//
-//            success
-//
-//    {
-//        "status": 0,
-//            "data": {
-//        "id": 1,
-//                "username": "admin",
-//                "password": "",
-//                "email": "admin@163.com",
-//                "phone": "13800138000",
-//                "question": "question",
-//                "answer": "answer",
-//                "role": 1,
-//                "createTime": 1478422605000,
-//                "updateTime": 1491305256000
-//    }
-//    }
-//
-//    fail
-//
-//    {
-//        "status": 10,
-//            "msg": "用户未登录,无法获取当前用户信息,status=10,强制登录"
-//    }
+
+    @RequestMapping(value = "logout.do", method = RequestMethod.POST)
+    @ResponseBody
+    public ServerResponse logout(HttpSession session) {
+        session.removeAttribute(Const.CURRENT_USER);
+        User user = (User) session.getAttribute(Const.CURRENT_USER);
+        if (user == null) {
+            return ServerResponse.createBySuccessMsg("退出成功");
+        }
+        return ServerResponse.createByErrorMsg("服务端异常");
+    }
+
+
 
 
 
