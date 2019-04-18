@@ -1,6 +1,7 @@
 package com.mmall.dao;
 
 import com.mmall.pojo.Category;
+import org.omg.CORBA.INTERNAL;
 
 import java.util.List;
 
@@ -18,4 +19,6 @@ public interface CategoryMapper {
     int updateByPrimaryKey(Category record);
 
     List<Category> selectByParentId(int categoryId);
+
+    Integer selectParentCategoryId(Integer categoryId);
 }

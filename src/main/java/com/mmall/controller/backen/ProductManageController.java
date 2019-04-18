@@ -5,11 +5,13 @@ import com.google.common.collect.Maps;
 import com.mmall.common.Const;
 import com.mmall.common.ResponseCode;
 import com.mmall.common.ServerResponse;
+import com.mmall.pojo.Product;
 import com.mmall.pojo.User;
 import com.mmall.service.IFileService;
 import com.mmall.service.IProductService;
 import com.mmall.service.IUserService;
 import com.mmall.util.PropertyUtil;
+import com.mmall.vo.ProductDetailVo;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -98,13 +100,56 @@ public class ProductManageController {
         return response;
     }
 
-//    {
-//        "status": 0,
-//            "data": {
-//        "uri": "e6604558-c0ff-41b9-b6e1-30787a1e3412.jpg",
-//                "url": "http://img.happymmall.com/e6604558-c0ff-41b9-b6e1-30787a1e3412.jpg"
-//    }
-//    }
+
+    @RequestMapping("detail.do")
+    @ResponseBody
+    public ServerResponse detail(HttpSession session, Integer productId) {
+        User user = (User) session.getAttribute(Const.CURRENT_USER);
+        if (user == null) {
+            return ServerResponse.createByErrorMsg(ResponseCode.NEED_LOGIN.getCode(), ResponseCode.NEED_LOGIN.getDesc());
+        }
+        ServerResponse response = iUserService.checkeAdmin(user);
+        if (response.isSuccess()) {
+            return iProductService.listProductDetail(productId);
+        }
+        return response;
+    }
+
+    @RequestMapping("set_sale_status.do")
+    @ResponseBody
+    public ServerResponse setSaleStatus(HttpSession session, Integer productId, Integer status) {
+        User user = (User) session.getAttribute(Const.CURRENT_USER);
+        if (user == null) {
+            return ServerResponse.createByErrorMsg(ResponseCode.NEED_LOGIN.getCode(), ResponseCode.NEED_LOGIN.getDesc());
+        }
+        ServerResponse response = iUserService.checkeAdmin(user);
+        if (response.isSuccess()) {
+            return iProductService.setStatus(productId, status);
+        }
+        return response;
+    }
+
+
+    @RequestMapping("save.do")
+    @ResponseBody
+    public ServerResponse saveOrUpdateProduct(HttpSession session, Product product) {
+        User user = (User) session.getAttribute(Const.CURRENT_USER);
+        if (user == null) {
+            return ServerResponse.createByErrorMsg(ResponseCode.NEED_LOGIN.getCode(), ResponseCode.NEED_LOGIN.getDesc());
+        }
+        ServerResponse response = iUserService.checkeAdmin(user);
+        if (response.isSuccess()) {
+            return iProductService.saveOrUpdate(product);
+        }
+        return response;
+    }
+
+
+
+
+
+
+
 
 
 

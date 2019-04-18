@@ -1,24 +1,32 @@
 package com.mmall.controller.portal;
 
+import com.google.common.collect.Maps;
 import com.mmall.common.Const;
 import com.mmall.common.ResponseCode;
 import com.mmall.common.ServerResponse;
 import com.mmall.pojo.User;
 import com.mmall.service.IUserService;
 import org.apache.commons.lang.StringUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-
+import java.io.IOException;
+import java.util.Map;
 
 
 @Controller
 @RequestMapping("/user/")
 public class UserController {
+    private static final Logger logger = LoggerFactory.getLogger(UserController.class);
 
     @Autowired
     private IUserService iUserService;
@@ -129,7 +137,31 @@ public class UserController {
         }
         return ServerResponse.createByErrorMsg("服务端异常");
     }
-
+//    param += "&email=" + email;
+//    param += "&id=" + id;
+//    param += "&phone=" + phone;
+//    param += "&question=" + question;
+//    param += "&username=" + username;
+//    param += "&role=" + role;
+    @RequestMapping(value = "loginDetail.do")
+    @ResponseBody
+    public ModelAndView loginDetail(HttpServletRequest request, HttpServletResponse response) {
+        String id = request.getParameter("id");
+        String email = request.getParameter("email");
+        String phone = request.getParameter("phone");
+        String question = request.getParameter("question");
+        String username = request.getParameter("username");
+        String role = request.getParameter("role");
+        Map<String,String> map = Maps.newHashMap();
+        map.put("id", id);
+        map.put("email", email);
+        map.put("phone", phone);
+        map.put("question", question);
+        map.put("username", username);
+        map.put("role", role);
+        logger.info("id:{},email:{},phone:{}",id , email, phone);
+        return new ModelAndView("loginDetail", map);
+    }
 
 
 
