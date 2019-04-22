@@ -67,7 +67,12 @@
     where status = 1
     and id = #{productId}
   </select>
-  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    <select id="selectByProductId" resultType="java.lang.Integer" parameterType="int">
+      select stock
+      from mmall_product
+      where id = #{productId}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from mmall_product
     where id = #{id,jdbcType=INTEGER}
   </delete>
