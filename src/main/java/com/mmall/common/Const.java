@@ -47,6 +47,7 @@ public class Const {
         }
     }
 
+
     public enum OrderStatusEnum {
         CANCELED(0, "cancel"),
         NO_PAY(10,"nopay"),
@@ -79,16 +80,21 @@ public class Const {
             throw new RuntimeException("/can't not find the order status/");
         }
     }
-
+//    WAIT_BUYER_PAY 	交易创建，等待买家付款
+//    TRADE_CLOSED 	未付款交易超时关闭，或支付完成后全额退款
+//    TRADE_SUCCESS 	交易支付成功
+//    TRADE_FINISHED
     public interface AlipayCallback{
         String TRADE_STATUS_WAIT_BUYER_PAY = "WAIT_BUYER_PAY";
         String TRADE_STATUS_TRADE_SUCCESS = "TRADE_SUCCESS";
+        String TRADE_CLOSED = "TRADE_CLOSED";
+        String TRADE_FINISHED = "TRADE_FINISHED";
         String RESPONSE_SUCCESS = "success";
         String RESPONSE_FAILED = "failed";
     }
 
     public enum PayPlatformEnum{
-        PAY_PLATFORM_ENUM(1,"AliPay");
+        AliPay(1,"AliPay");
         private int code;
         private String value;
 

@@ -7,155 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2b01f34-304f-4ac9-a8ff-5733e3781dbd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/LoginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/dao/CartMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/dao/CartMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/dao/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/dao/ProductMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/zfbinfo.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/zfbinfo.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/fenlei.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/gouwuche.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/loginDetail.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/order.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/product.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/public.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/common/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/common/Const.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/dao/OrderItemMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/dao/OrderItemMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmall/dao/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmall/dao/OrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/OrderItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/OrderItemMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/PayInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/PayInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mmall.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mmall.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/happymmall.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/controller/portal/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/controller/portal/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mmall/controller/portal/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/dao/CartMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mmall/dao/CartMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/CartMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/CartMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/META-INF/happymmall.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/applicationContext-datasource.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/alipay/demo/trade/DemoHbRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/alipay/demo/trade/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/alipay/demo/trade/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/common/Const$AlipayCallback.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/common/Const$Cart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/common/Const$OrderStatusEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/common/Const$PayPlatformEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/common/Const$PaymentTypeEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/common/Const$ProductListOrderBy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/common/Const$ProductStatusEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/common/Const$Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/common/Const.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/common/ResponseCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/common/ServerResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/common/TokenCache$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/common/TokenCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/controller/backen/CategoryController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/controller/backen/ProductManageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/controller/backen/UserManageController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/controller/portal/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/controller/portal/ProductController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/controller/portal/ShippingController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/controller/portal/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/dao/CartMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/dao/CategoryMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/dao/OrderItemMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/dao/OrderMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/dao/PayInfoMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/dao/ProductMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/dao/ShippingMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/dao/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/pojo/Cart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/pojo/Category.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/pojo/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/pojo/OrderItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/pojo/PayInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/pojo/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/pojo/Shipping.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/service/ICategoryService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/service/IFileService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/service/IProductService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/service/IShippingService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/service/IUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/service/impl/CategoryServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/service/impl/FileServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/service/impl/ProductServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/service/impl/ShippingServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/util/BigDecimalUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/util/DateTimeUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/util/FTPUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/util/MD5Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/util/PropertyUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/vo/ProductDetailVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/com/mmall/vo/ProductListVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/datasource.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/mappers/CartMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/mappers/CategoryMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/mappers/OrderItemMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/mappers/OrderMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/mappers/PayInfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/mappers/ProductMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/mappers/ShippingMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/mappers/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/mmall.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/classes/zfbinfo.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/alipay-sdk-java20161213173952-source.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/alipay-sdk-java20161213173952.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/alipay-trade-sdk-20161215-source.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/alipay-trade-sdk-20161215.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/aspectjrt-1.6.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/aspectjweaver-1.7.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/commons-codec-1.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/commons-collections-3.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/commons-configuration-1.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/commons-dbcp-1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/commons-fileupload-1.2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/commons-io-2.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/commons-lang-2.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/commons-lang3-3.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/commons-logging-1.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/commons-net-3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/commons-pool-1.5.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/commons-pool2-2.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/core-2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/gson-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/guava-20.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/hamcrest-core-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/hashids-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/jackson-core-asl-1.9.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/jackson-mapper-asl-1.9.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/jedis-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/joda-time-2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/jsqlparser-0.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/junit-4.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/logback-classic-1.1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/logback-core-1.1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/mybatis-3.4.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/mybatis-paginator-1.2.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/mybatis-spring-1.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/mysql-connector-java-5.1.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/pagehelper-4.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/slf4j-api-1.7.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/spring-oxm-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/spring-test-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/lib/tomcat-servlet-api-7.0.94.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/view/fenlei.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/view/gouwuche.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/view/home.jsp" beforeDir="false" />
@@ -165,8 +27,6 @@
       <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/view/order.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/view/product.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/view/public.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/happymmall/index.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/mmall.war" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/mmall/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/applicationContext-datasource.xml" beforeDir="false" />
@@ -258,7 +118,105 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/OrderController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.0.RELEASE/spring-web-4.0.0.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.0.RELEASE/spring-webmvc-4.0.0.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="75" selection-start-line="75" selection-end-line="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.0.RELEASE/spring-webmvc-4.0.0.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="417" selection-start-line="417" selection-end-line="417" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.0.RELEASE/spring-webmvc-4.0.0.RELEASE.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.0.RELEASE/spring-webmvc-4.0.0.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="411" selection-start-line="411" selection-end-line="411" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.0.RELEASE/spring-webmvc-4.0.0.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="377" selection-start-line="377" selection-end-line="377" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.0.RELEASE/spring-web-4.0.0.RELEASE.jar!/org/springframework/web/filter/CharacterEncodingFilter.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.0.RELEASE/spring-web-4.0.0.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="206" column="44" lean-forward="true" selection-start-line="206" selection-start-column="44" selection-end-line="206" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4077#4090#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -280,6 +238,11 @@
       <find>登</find>
       <find>No mapping found for HTTP req</find>
       <find>Controller</find>
+      <find>pre</find>
+      <find>precreate</find>
+      <find>dumpResponse</find>
+      <find>tradePrecreate</find>
+      <find>OrderStatusEnum</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -288,15 +251,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/util/BigDecimal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/util/BigDecimalUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/util/DateTimeUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/util/MD5Util.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/util/PropertyUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/dao/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/backen/UserManageController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/IShippingService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/dao/ShippingMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/ShippingServiceImpl.java" />
@@ -308,7 +262,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/CategoryServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/backen/CategoryController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/vo/ProductListVo.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mmall.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/IFileService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/util/FTPUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/FileServiceImpl.java" />
@@ -339,6 +292,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/dao/CartMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/CartServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/dao/OrderItemMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/OrderItemMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mmall.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/dao/OrderMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/common/Const.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/PayInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/IOrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/OrderController.java" />
       </list>
     </option>
   </component>
@@ -379,10 +342,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="324" />
-    <option name="y" value="198" />
-    <option name="width" value="1370" />
-    <option name="height" value="847" />
+    <option name="x" value="242" />
+    <option name="y" value="493" />
+    <option name="width" value="1364" />
+    <option name="height" value="844" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -414,6 +377,84 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="happymmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="happymmall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="happymmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="happymmall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="trade" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="happymmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="happymmall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mmall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="happymmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="happymmall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mmall" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="happymmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="happymmall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mmall" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="portal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="happymmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="happymmall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mmall" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="happymmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="happymmall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mmall" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="happymmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="happymmall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="mmall" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="happymmall" type="b2602c69:ProjectViewProjectNode" />
@@ -509,6 +550,7 @@
       </method>
     </configuration>
     <configuration name="happymmall" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.94" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="OPEN_IN_BROWSER_URL" value="http://127.0.0.1:8080/" />
       <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -581,11 +623,82 @@
         </option>
       </method>
     </configuration>
+    <configuration name="onlinemmall" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" APPLICATION_SERVER_NAME="Tomcat 7.0.94" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="HOST" value="127.0.0.1" />
+      <option name="LOCAL" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://zwx.natapp1.cc" />
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="happymmall:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="59a58e81-e73c-4d8b-8159-9c7eace30110" />
+                    <id>59a58e81-e73c-4d8b-8159-9c7eace30110</id>
+                  </TransportTarget>
+                </option>
+                <option name="watchedLocalPath" value="" />
+                <watched-path />
+                <name>CONTEXT_XML</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="59a58e81-e73c-4d8b-8159-9c7eace30110" />
+                    <id>59a58e81-e73c-4d8b-8159-9c7eace30110</id>
+                  </TransportTarget>
+                </transport-target>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <option name="stagingRemotePath" value="" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="53bc057f-5773-45e4-a214-39ae029855e3" />
+                    <id>53bc057f-5773-45e4-a214-39ae029855e3</id>
+                  </TransportTarget>
+                </option>
+                <staging-path />
+                <name>STAGING</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="53bc057f-5773-45e4-a214-39ae029855e3" />
+                    <id>53bc057f-5773-45e4-a214-39ae029855e3</id>
+                  </TransportTarget>
+                </transport-target>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="46355" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="happymmall:war" />
+        </option>
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.DateTimeUtil" />
       <item itemvalue="Application.FileServiceImpl" />
       <item itemvalue="Tomcat Server.happymmall" />
+      <item itemvalue="Tomcat Server.onlinemmall" />
     </list>
     <recent_temporary>
       <list>
@@ -613,12 +726,12 @@
       <workItem from="1555436221025" duration="485000" />
       <workItem from="1555441718143" duration="75132000" />
       <workItem from="1555906090114" duration="10534000" />
-      <workItem from="1555934514151" duration="19092000" />
+      <workItem from="1555934514151" duration="44485000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120233000" />
+    <option name="totallyTimeSpent" value="145626000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -631,10 +744,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="25" width="1924" height="1154" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5323047" visible="true" weight="0.19521277" />
-      <window_info id="Structure" order="1" sideWeight="0.46769527" side_tool="true" visible="true" weight="0.19521277" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5313404" visible="true" weight="0.19521277" />
+      <window_info id="Structure" order="1" sideWeight="0.4686596" side_tool="true" visible="true" weight="0.19521277" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -643,8 +755,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297975" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34715524" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5959498" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.62584376" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.58630663" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32968536" />
@@ -682,279 +794,18 @@
           </properties>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java</url>
+          <line>187</line>
+          <properties class="com.mmall.service.impl.OrderServiceImpl" method="aliCallback">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/IProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/ServerResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/vo/CartVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/pojo/Cart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
-          <folding>
-            <element signature="e#1150#1151#0" expanded="true" />
-            <element signature="e#1181#1182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/vo/CartProductVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
-          <folding>
-            <element signature="e#988#989#0" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/CategoryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_201-amd64/src.zip!/java/math/BigDecimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="808" column="22" selection-start-line="808" selection-start-column="22" selection-end-line="808" selection-end-column="22" />
-          <folding>
-            <element signature="e#34202#34203#0" expanded="true" />
-            <element signature="e#34258#34259#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_201-amd64/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="2899" column="20" selection-start-line="2899" selection-start-column="20" selection-end-line="2899" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_201-amd64/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="492" column="59" selection-start-line="492" selection-start-column="59" selection-end-line="492" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/Const.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/util/PropertyUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.0.RELEASE/spring-webmvc-4.0.0.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="575" column="151" selection-start-line="575" selection-start-column="151" selection-end-line="575" selection-end-column="151" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.0.RELEASE/spring-webmvc-4.0.0.RELEASE.jar!/org/springframework/web/servlet/HttpServletBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="74" column="63" selection-start-line="74" selection-start-column="54" selection-end-line="74" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/tomcat-servlet-api/7.0.94/tomcat-servlet-api-7.0.94.jar!/javax/servlet/GenericServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <element signature="e#767#768#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/mmall/controller/portal/CartController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#1239#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/com/mmall/controller/portal/ProductController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#2069#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.0.RELEASE/spring-context-4.0.0.RELEASE.jar!/org/springframework/stereotype/Controller.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.0.RELEASE/spring-webmvc-4.0.0.RELEASE.jar!/org/springframework/web/servlet/config/spring-mvc-4.0.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="424" column="31" selection-start-line="424" selection-start-column="21" selection-end-line="424" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/happymmall/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/applicationContext-datasource.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/happymmall/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="70" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/datasource.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1102">
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mmall.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/ShippingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="74" column="56" selection-start-line="74" selection-start-column="56" selection-end-line="74" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/backen/CategoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/backen/UserManageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="742">
@@ -990,20 +841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alipay/demo/trade/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="422" column="49" selection-start-line="422" selection-start-column="49" selection-end-line="422" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/zfbinfo.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -1053,13 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.0.RELEASE/spring-web-4.0.0.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="140" column="58" lean-forward="true" selection-start-line="140" selection-start-column="58" selection-end-line="140" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/ICartService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1098,10 +928,295 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/CartController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="99" column="9" lean-forward="true" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
+        <state relative-caret-position="289">
+          <caret line="86" column="8" selection-start-line="86" selection-start-column="8" selection-end-line="89" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/pojo/OrderItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+          <folding>
+            <element signature="e#2174#2175#0" expanded="true" />
+            <element signature="e#2213#2214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/alipay-trade-sdk-20161215-source.jar!/com/alipay/demo/trade/model/GoodsDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="36" column="56" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alipay/demo/trade/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="66" column="4" lean-forward="true" selection-start-line="66" selection-start-column="4" selection-end-line="75" selection-end-column="5" />
+          <folding>
+            <element signature="method#test_trade_precreate#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/util/FTPUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="74" column="25" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3697">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/FileServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/util/PropertyUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/OrderItemMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/OrderItemMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/tomcat-servlet-api/7.0.94/tomcat-servlet-api-7.0.94.jar!/javax/servlet/ServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar!/org/apache/commons/configuration/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/pojo/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="123" column="16" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="16" />
+          <folding>
+            <element signature="e#2379#2380#0" expanded="true" />
+            <element signature="e#2408#2409#0" expanded="true" />
+            <element signature="e#2611#2612#0" expanded="true" />
+            <element signature="e#2657#2658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/pojo/PayInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="64" column="53" lean-forward="true" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
+          <folding>
+            <element signature="e#1408#1409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/PayInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/OrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/dao/PayInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mmall.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="70" lean-forward="true" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/common/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="73" column="48" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/IOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/alipay-sdk-java20161213173952.jar!/com/alipay/api/internal/util/AlipaySignature.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="217" column="34" selection-start-line="217" selection-start-column="34" selection-end-line="217" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/alipay-trade-sdk-20161215-source.jar!/com/alipay/demo/trade/service/AlipayTradeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/alipay-trade-sdk-20161215-source.jar!/com/alipay/demo/trade/config/Configs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="165" column="23" selection-start-line="165" selection-start-column="23" selection-end-line="165" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5371#5372#0" expanded="true" />
+            <element signature="e#5407#5408#0" expanded="true" />
+            <element signature="e#5452#5453#0" expanded="true" />
+            <element signature="e#5488#5489#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/alipay-trade-sdk-20161215-source.jar!/com/alipay/demo/trade/service/impl/AbsAlipayTradeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="159" column="42" selection-start-line="159" selection-start-column="42" selection-end-line="159" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/zfbinfo.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="23" column="14" selection-start-line="23" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/alipay-trade-sdk-20161215-source.jar!/com/alipay/demo/trade/service/impl/AlipayTradeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-380">
+          <caret line="151" column="75" selection-start-line="151" selection-start-column="68" selection-end-line="151" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/controller/portal/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.0.RELEASE/spring-web-4.0.0.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.0.RELEASE/spring-webmvc-4.0.0.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.0.RELEASE/spring-webmvc-4.0.0.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="417" selection-start-line="417" selection-end-line="417" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.0.RELEASE/spring-webmvc-4.0.0.RELEASE.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.0.RELEASE/spring-webmvc-4.0.0.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="411" selection-start-line="411" selection-end-line="411" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.0.RELEASE/spring-webmvc-4.0.0.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="377" selection-start-line="377" selection-end-line="377" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.0.RELEASE/spring-web-4.0.0.RELEASE.jar!/org/springframework/web/filter/CharacterEncodingFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.0.RELEASE/spring-web-4.0.0.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mmall/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="206" column="44" lean-forward="true" selection-start-line="206" selection-start-column="44" selection-end-line="206" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4077#4090#0" expanded="true" />
           </folding>
         </state>
       </provider>
